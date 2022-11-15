@@ -2,6 +2,7 @@ package com.solanacrm;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -24,11 +25,11 @@ public class AppController {
     private URL location;
 
     @FXML
-    private AnchorPane AnchorPane;
+    public AnchorPane AnchorPane;
 
 
     @FXML
-    private VBox vboxNavigation;
+    public VBox vboxNavigation;
 
     @FXML
     void clickLogOut(ActionEvent event) throws IOException {
@@ -41,7 +42,7 @@ public class AppController {
     }
 
     @FXML
-    void initialize() {
+    void initialize() throws SQLException, ClassNotFoundException {
         navigationBar();
 
     }

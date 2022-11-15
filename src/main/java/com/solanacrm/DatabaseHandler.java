@@ -53,4 +53,30 @@ public class DatabaseHandler extends Configs{
         prSt.executeUpdate();
     }
 
+
+    public int countOfPosts() throws SQLException, ClassNotFoundException {
+        ResultSet resSet = null;
+        String select = "SELECT * FROM posts";
+        PreparedStatement prSt = getDbConnection().prepareStatement(select);
+        resSet = prSt.executeQuery();
+
+        int count=2;
+        while(resSet.next()) {
+            count++;
+        }
+
+        return count;
+
+    }
+
+    public ResultSet getPost(String id) throws SQLException, ClassNotFoundException {
+        ResultSet resSet = null;
+        String select = "SELECT * FROM posts" + " WHERE idposts" + " = " + id;
+        PreparedStatement prSt = getDbConnection().prepareStatement(select);
+
+
+        resSet = prSt.executeQuery();
+
+        return resSet;
+    }
 }
