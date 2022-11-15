@@ -2,6 +2,8 @@ package com.solanacrm;
 
 import java.io.IOException;
 import java.net.URL;
+import java.sql.ResultSet;
+import java.sql.SQLException;
 import java.util.ResourceBundle;
 import javafx.event.ActionEvent;
 import javafx.fxml.FXML;
@@ -18,12 +20,6 @@ public class SIController {
     private Parent root;
 
     @FXML
-    private ResourceBundle resources;
-
-    @FXML
-    private URL location;
-
-    @FXML
     private Label errorField;
 
     @FXML
@@ -36,8 +32,10 @@ public class SIController {
     private Label successField;
 
     @FXML
-    void submitSIButton(ActionEvent event) {
-
+    void submitSIButton(ActionEvent event) throws IOException, SQLException, ClassNotFoundException {
+        if (SignInValidation(loginFieldSI.getText(), passFieldSI.getText())) {
+            SwitchScene.switchToApp(stage,scene,root,event);
+        }
     }
 
     @FXML
@@ -52,5 +50,30 @@ public class SIController {
             Auth.SUSuccess = false;
         }
 
+    }
+
+    private boolean SignInValidation(String login, String pass) throws SQLException, ClassNotFoundException {
+        DatabaseHandler dbHandler = new DatabaseHandler();
+        ResultSet UserResult = dbHandler.SIUser(loginFieldSI.getText(), passFieldSI.getText());
+
+        int counter = 0;
+        while (UserResult.next()) {
+            counter++;
+        }
+
+        if (counter==1) {
+//            System.out.println("User exist");
+            Auth.login = UserResult.getString("login");
+            return true;
+        } else {
+            triggerError("User doesn't exist");
+            return false;
+        }
+
+    }
+
+    public void triggerError(String message) {
+        this.errorField.setText(message);
+        this.errorField.setVisible(true);
     }
 }

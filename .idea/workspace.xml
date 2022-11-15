@@ -4,32 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mvnw.cmd" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Configs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SUController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/UserConst.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/SIpage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/SUpage.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/assets/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/assets/logo.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/hello-view.fxml" afterDir="false" />
+    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="Functional Sign Up form">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/App.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/News.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SUController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,19 +36,22 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2HVBegDVPX3FCJLZ4x8ByjVduBf" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Мадияр/IdeaProjects/solanacrm/src/main/resources/com/solanacrm&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Users/Мадияр/IdeaProjects/solanacrm/src/main/resources/com/solanacrm"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Мадияр\IdeaProjects\solanacrm\src\main\resources\com\solanacrm" />
@@ -100,6 +89,14 @@
       <option name="presentableId" value="Default" />
       <updated>1668360474004</updated>
     </task>
+    <task id="LOCAL-00001" summary="Functional Sign Up form">
+      <created>1668508008442</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1668508008442</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -112,5 +109,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Functional Sign Up form" />
+    <option name="LAST_COMMIT_MESSAGE" value="Functional Sign Up form" />
   </component>
 </project>

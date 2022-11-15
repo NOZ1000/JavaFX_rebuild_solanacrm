@@ -24,12 +24,6 @@ public class SUController {
     public String errorMsg;
 
     @FXML
-    private ResourceBundle resources;
-
-    @FXML
-    private URL location;
-
-    @FXML
     private PasswordField confirmPassFieldSU;
 
     @FXML

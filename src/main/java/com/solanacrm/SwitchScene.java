@@ -27,4 +27,20 @@ public class SwitchScene {
         stage.setScene(scene);
         stage.show();
     }
+
+    public static void switchToApp(Stage stage, Scene scene, Parent root, ActionEvent event) throws IOException {
+        root  = FXMLLoader.load(Objects.requireNonNull(SwitchScene.class.getResource("App.fxml")));
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
+
+    public static void switchToNews(Stage stage, Scene scene, Parent root, ActionEvent event) throws IOException {
+        root  = FXMLLoader.load(Objects.requireNonNull(SwitchScene.class.getResource("News.fxml")));
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }
