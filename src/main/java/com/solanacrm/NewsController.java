@@ -22,7 +22,7 @@ public class NewsController extends AppController{
     private VBox vboxNews;
 
     @FXML
-    void clickAddPost(ActionEvent event) {
-
+    void clickAddPost(ActionEvent event) throws IOException {
+        SwitchScene.switchToCreatePost(stage, scene, root, event);
     }
 }

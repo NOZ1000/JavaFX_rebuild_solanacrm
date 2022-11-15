@@ -38,4 +38,19 @@ public class DatabaseHandler extends Configs{
         return resSet;
     }
 
+    public void CreatePost(String title, String content, String author) throws SQLException, ClassNotFoundException {
+        String insert = "INSERT INTO posts ( title, content, author, date ) VALUES(?,?,?,?)";
+        PreparedStatement prSt = getDbConnection().prepareStatement(insert);
+
+        prSt.setString(1, title);
+        prSt.setString(2, content);
+        prSt.setString(3, author);
+
+        long millis = System.currentTimeMillis();
+        java.sql.Date date = new java.sql.Date(millis);
+
+        prSt.setDate(4, date);
+        prSt.executeUpdate();
+    }
+
 }

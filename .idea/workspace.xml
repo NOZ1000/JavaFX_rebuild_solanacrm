@@ -4,17 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="Functional Sign Up form">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/App.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/News.fxml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="Added Parent Class for App">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/PostController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/CreatePost.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/Post.fxml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SUController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SUController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668508008442</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Added Parent Class for App">
+      <created>1668511967267</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1668511967267</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -113,6 +118,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="Functional Sign Up form" />
-    <option name="LAST_COMMIT_MESSAGE" value="Functional Sign Up form" />
+    <MESSAGE value="Added Parent Class for App" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added Parent Class for App" />
   </component>
 </project>

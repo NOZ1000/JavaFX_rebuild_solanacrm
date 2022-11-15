@@ -33,7 +33,7 @@ public class SIController {
 
     @FXML
     void submitSIButton(ActionEvent event) throws IOException, SQLException, ClassNotFoundException {
-        if (SignInValidation(loginFieldSI.getText(), passFieldSI.getText())) {
+        if (SignInValidation()) {
             SwitchScene.switchToApp(stage,scene,root,event);
         }
     }
@@ -52,9 +52,13 @@ public class SIController {
 
     }
 
-    private boolean SignInValidation(String login, String pass) throws SQLException, ClassNotFoundException {
+    private boolean SignInValidation() throws SQLException, ClassNotFoundException {
         DatabaseHandler dbHandler = new DatabaseHandler();
-        ResultSet UserResult = dbHandler.SIUser(loginFieldSI.getText(), passFieldSI.getText());
+
+        String login = loginFieldSI.getText().trim();
+        String pass = passFieldSI.getText().trim();
+
+        ResultSet UserResult = dbHandler.SIUser(login, pass);
 
         int counter = 0;
         while (UserResult.next()) {
@@ -62,8 +66,7 @@ public class SIController {
         }
 
         if (counter==1) {
-//            System.out.println("User exist");
-            Auth.login = UserResult.getString("login");
+            Auth.login = login;
             return true;
         } else {
             triggerError("User doesn't exist");
