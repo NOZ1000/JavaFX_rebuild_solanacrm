@@ -28,7 +28,11 @@ public class NewsController extends AppController{
 
     @FXML
     void clickAddPost(ActionEvent event) throws IOException {
-        SwitchScene.switchToCreatePost(stage, scene, root, event);
+        if(Objects.equals(Auth.is_teacher, "true") || Objects.equals(Auth.is_admin, "true")) {
+            SwitchScene.switchToCreatePost(stage, scene, root, event);
+        } else {
+            System.out.println("You are not permitted!");
+        }
     }
 
     @FXML

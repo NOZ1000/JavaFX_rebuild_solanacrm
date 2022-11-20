@@ -4,14 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="Create Post">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/ViewPostController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/ViewPost.fxml" afterDir="false" />
+    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="View Posts">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/solanacrm/App.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/App.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -39,15 +37,15 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "last_opened_file_path": "C:/Users/Мадияр/IdeaProjects/solanacrm/src/main/resources/com/solanacrm"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Мадияр/IdeaProjects/solanacrm/src/main/resources/com/solanacrm&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Мадияр\IdeaProjects\solanacrm\src\main\resources\com\solanacrm" />
@@ -106,7 +104,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668531630138</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="View Posts">
+      <created>1668535359919</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668535359919</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -114,7 +119,13 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="CUSTOM_BOOLEAN_PROPERTIES">
+                <map>
+                  <entry key="Show.Git.Branches" value="true" />
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -125,6 +136,7 @@
     <MESSAGE value="Functional Sign Up form" />
     <MESSAGE value="Added Parent Class for App" />
     <MESSAGE value="Create Post" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Post" />
+    <MESSAGE value="View Posts" />
+    <option name="LAST_COMMIT_MESSAGE" value="View Posts" />
   </component>
 </project>

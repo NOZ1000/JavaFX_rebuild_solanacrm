@@ -63,6 +63,8 @@ public class SIController {
         int counter = 0;
         while (UserResult.next()) {
             counter++;
+            Auth.is_teacher = UserResult.getString("is_teacher");
+            Auth.is_admin = UserResult.getString("is_admin");
         }
 
         if (counter==1) {
