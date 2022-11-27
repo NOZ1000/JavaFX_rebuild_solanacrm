@@ -1,6 +1,7 @@
 package com.solanacrm;
 
 public class Auth {
+    public static int id_user;
     public static String login;
     public static String pass;
     public static boolean SUSuccess;

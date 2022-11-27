@@ -67,7 +67,7 @@ public class AppController {
         profileButton.setPrefSize(230,35);
         profileButton.setOnAction(event -> {
             try {
-                SwitchScene.switchToSignUp(stage,scene,root,event);
+                SwitchScene.switchToProfile(stage,scene,root,event);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }

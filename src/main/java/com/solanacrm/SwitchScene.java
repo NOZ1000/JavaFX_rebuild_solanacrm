@@ -51,4 +51,12 @@ public class SwitchScene {
         stage.setScene(scene);
         stage.show();
     }
+
+    public static void switchToProfile(Stage stage, Scene scene, Parent root, ActionEvent event) throws IOException {
+        root  = FXMLLoader.load(Objects.requireNonNull(SwitchScene.class.getResource("Profile.fxml")));
+        stage = (Stage) ((Node)event.getSource()).getScene().getWindow();
+        scene = new Scene(root);
+        stage.setScene(scene);
+        stage.show();
+    }
 }

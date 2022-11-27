@@ -65,6 +65,7 @@ public class SIController {
             counter++;
             Auth.is_teacher = UserResult.getString("is_teacher");
             Auth.is_admin = UserResult.getString("is_admin");
+            Auth.id_user = UserResult.getInt("idusers");
         }
 
         if (counter==1) {

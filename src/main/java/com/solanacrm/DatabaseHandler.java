@@ -79,4 +79,15 @@ public class DatabaseHandler extends Configs{
 
         return resSet;
     }
+
+    public ResultSet getUser(String id) throws SQLException, ClassNotFoundException {
+        ResultSet resSet = null;
+        String select = "SELECT * FROM users" + " WHERE idusers" + " = " + id;
+        PreparedStatement prSt = getDbConnection().prepareStatement(select);
+
+
+        resSet = prSt.executeQuery();
+
+        return resSet;
+    }
 }

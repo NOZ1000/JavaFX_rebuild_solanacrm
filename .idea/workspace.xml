@@ -4,12 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="View Posts">
+    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="Add post validation">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/ProfileController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Auth.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SIController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/solanacrm/App.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/App.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -111,7 +113,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668535359919</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add post validation">
+      <created>1668966272865</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668966272865</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -137,6 +146,7 @@
     <MESSAGE value="Added Parent Class for App" />
     <MESSAGE value="Create Post" />
     <MESSAGE value="View Posts" />
-    <option name="LAST_COMMIT_MESSAGE" value="View Posts" />
+    <MESSAGE value="Add post validation" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add post validation" />
   </component>
 </project>
