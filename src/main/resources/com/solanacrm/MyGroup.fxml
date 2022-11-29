@@ -47,14 +47,7 @@
                <content>
                   <AnchorPane fx:id="AnchorPane" prefHeight="768.0" prefWidth="630.0">
                      <children>
-                        <TableView fx:id="table" editable="true" layoutX="51.0" layoutY="76.0" prefHeight="296.0" prefWidth="529.0">
-                          <columns>
-                            <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
-                            <TableColumn fx:id="firstNameColumn" prefWidth="139.0" text="First Name" />
-                              <TableColumn fx:id="lastNameColumn" prefWidth="134.0" text="Last Name" />
-                              <TableColumn fx:id="loginColumn" prefWidth="75.0" text="Login" />
-                          </columns>
-                        </TableView>
+                        <TableView fx:id="table" editable="true" layoutX="51.0" layoutY="76.0" prefHeight="296.0" prefWidth="529.0" />
                         <Label alignment="CENTER" layoutX="217.0" layoutY="14.0" prefHeight="48.0" prefWidth="196.0" text="Group ID">
                            <font>
                               <Font size="36.0" />

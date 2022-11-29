@@ -90,4 +90,15 @@ public class DatabaseHandler extends Configs{
 
         return resSet;
     }
+
+    public ResultSet getAllStudents() throws SQLException, ClassNotFoundException {
+        ResultSet resSet = null;
+        String select = "SELECT * FROM users WHERE is_teacher = false";
+        PreparedStatement prSt = getDbConnection().prepareStatement(select);
+
+
+        resSet = prSt.executeQuery();
+
+        return resSet;
+    }
 }

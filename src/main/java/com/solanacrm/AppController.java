@@ -86,5 +86,4 @@ public class AppController {
         });
         this.vboxNavigation.getChildren().add(myGroupButton);
     }
-
 }

@@ -4,15 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="Added Profile">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/MyGroupController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/MyGroup.fxml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/Profile.fxml" afterDir="false" />
+    <list default="true" id="40b01614-f169-4fa7-8e76-101e8f64c18e" name="Changes" comment="Added error notification in News Controller. Added new page My Group">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/Student.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/AppController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/NewsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/SwitchScene.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/com/solanacrm/News.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/News.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/DatabaseHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/solanacrm/MyGroupController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/solanacrm/MyGroupController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/com/solanacrm/MyGroup.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/com/solanacrm/MyGroup.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1669557741063</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Added error notification in News Controller. Added new page My Group">
+      <created>1669734860613</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1669734860613</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -156,6 +161,7 @@
     <MESSAGE value="View Posts" />
     <MESSAGE value="Add post validation" />
     <MESSAGE value="Added Profile" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added Profile" />
+    <MESSAGE value="Added error notification in News Controller. Added new page My Group" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added error notification in News Controller. Added new page My Group" />
   </component>
 </project>
