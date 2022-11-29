@@ -6,7 +6,7 @@
 <?import javafx.scene.paint.*?>
 <?import javafx.scene.text.*?>
 
-<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.solanacrm.NewsController">
+<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.solanacrm.MyGroupController">
    <children>
       <BorderPane prefHeight="650.0" prefWidth="900.0">
          <left>
@@ -47,19 +47,21 @@
                <content>
                   <AnchorPane fx:id="AnchorPane" prefHeight="768.0" prefWidth="630.0">
                      <children>
-                        <Button layoutX="504.0" layoutY="14.0" mnemonicParsing="false" onAction="#clickAddPost" prefHeight="42.0" prefWidth="85.0" text="Add Post" />
-                        <Label layoutX="216.0" layoutY="44.0" prefHeight="78.0" prefWidth="199.0" text="News Board">
+                        <TableView fx:id="table" editable="true" layoutX="51.0" layoutY="76.0" prefHeight="296.0" prefWidth="529.0">
+                          <columns>
+                            <TableColumn fx:id="idColumn" prefWidth="75.0" text="ID" />
+                            <TableColumn fx:id="firstNameColumn" prefWidth="139.0" text="First Name" />
+                              <TableColumn fx:id="lastNameColumn" prefWidth="134.0" text="Last Name" />
+                              <TableColumn fx:id="loginColumn" prefWidth="75.0" text="Login" />
+                          </columns>
+                        </TableView>
+                        <Label alignment="CENTER" layoutX="217.0" layoutY="14.0" prefHeight="48.0" prefWidth="196.0" text="Group ID">
                            <font>
-                              <Font name="Impact" size="36.0" />
+                              <Font size="36.0" />
                            </font>
                         </Label>
-                        <VBox fx:id="vboxNews" layoutX="84.0" layoutY="145.0" prefHeight="263.0" prefWidth="450.0" />
-                        <Label fx:id="errorAddPost" alignment="CENTER_RIGHT" contentDisplay="CENTER" layoutX="362.0" layoutY="25.0" onMouseClicked="#clickError" prefHeight="23.0" prefWidth="134.0" style="-fx-background-color: #ed8789; -fx-background-radius: 10;" text=" You are not permited! " visible="false">
-                           <font>
-                              <Font size="13.0" />
-                           </font>
-                        </Label>
-                     </children></AnchorPane>
+                     </children>
+                  </AnchorPane>
                </content>
             </ScrollPane>
          </center>

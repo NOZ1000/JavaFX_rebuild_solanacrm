@@ -14,8 +14,11 @@ import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.layout.AnchorPane;
+import javafx.scene.control.Label;
 import javafx.scene.layout.VBox;
 import javafx.stage.Stage;
+import javafx.scene.input.MouseEvent;
+
 
 
 public class NewsController extends AppController{
@@ -25,14 +28,22 @@ public class NewsController extends AppController{
 
     @FXML
     private VBox vboxNews;
+    @FXML
+    private Label errorAddPost;
 
     @FXML
     void clickAddPost(ActionEvent event) throws IOException {
         if(Objects.equals(Auth.is_teacher, "true") || Objects.equals(Auth.is_admin, "true")) {
             SwitchScene.switchToCreatePost(stage, scene, root, event);
         } else {
+            errorAddPost.setVisible(true);
             System.out.println("You are not permitted!");
         }
+    }
+
+    @FXML
+    void clickError(MouseEvent event) {
+        errorAddPost.setVisible(false);
     }
 
     @FXML

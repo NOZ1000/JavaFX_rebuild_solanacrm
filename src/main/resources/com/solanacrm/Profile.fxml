@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="650.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.solanacrm.ProfileController">
+   <children>
+      <BorderPane prefHeight="650.0" prefWidth="900.0">
+         <left>
+            <AnchorPane minHeight="-Infinity" prefHeight="494.0" prefWidth="252.0" style="-fx-background-color: #101010; -fx-background-radius: 13;" BorderPane.alignment="CENTER">
+               <children>
+                  <Label layoutX="3.0" layoutY="5.0" prefHeight="54.0" prefWidth="275.0" text="Solana CRM">
+                     <font>
+                        <Font name="Georgia" size="45.0" />
+                     </font>
+                     <textFill>
+                        <LinearGradient endX="1.0" endY="1.0">
+                           <stops>
+                              <Stop>
+                                 <color>
+                                    <Color red="0.17219999432563782" green="0.5115237832069397" blue="0.8199999928474426" />
+                                 </color>
+                              </Stop>
+                              <Stop offset="1.0">
+                                 <color>
+                                    <Color red="1.0" green="1.0" blue="1.0" />
+                                 </color>
+                              </Stop>
+                           </stops>
+                        </LinearGradient>
+                     </textFill>
+                     <padding>
+                        <Insets left="3.0" />
+                     </padding>
+                  </Label>
+                  <Separator layoutX="9.0" layoutY="53.0" prefHeight="12.0" prefWidth="255.0" />
+                  <VBox fx:id="vboxNavigation" layoutX="20.0" layoutY="73.0" prefHeight="351.0" prefWidth="231.0" />
+                  <Button layoutX="20.0" layoutY="448.0" mnemonicParsing="false" onAction="#clickLogOut" prefHeight="32.0" prefWidth="99.0" text="Log Out" />
+               </children>
+            </AnchorPane>
+         </left>
+         <center>
+            <ScrollPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+               <content>
+                  <AnchorPane fx:id="AnchorPane" prefHeight="768.0" prefWidth="630.0">
+                     <children>
+                        <Label layoutX="95.0" layoutY="31.0" prefHeight="54.0" prefWidth="226.0" text="Account Information">
+                           <font>
+                              <Font name="Georgia" size="24.0" />
+                           </font>
+                        </Label>
+                        <VBox layoutX="71.0" layoutY="109.0" prefHeight="167.0" prefWidth="84.0">
+                           <children>
+                              <Label prefHeight="28.0" prefWidth="131.0" text="First Name:">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="28.0" prefWidth="131.0" text="Last Name:">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                              <Label prefHeight="28.0" prefWidth="131.0" text="Login:">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </VBox>
+                        <VBox layoutX="169.0" layoutY="109.0" prefHeight="165.0" prefWidth="186.0">
+                           <children>
+                              <TextField fx:id="firstNameField" alignment="CENTER" editable="false" prefHeight="27.0" prefWidth="137.0">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="lastNameField" alignment="CENTER" editable="false" prefHeight="27.0" prefWidth="137.0">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </TextField>
+                              <TextField fx:id="loginField" alignment="CENTER" editable="false" prefHeight="27.0" prefWidth="137.0">
+                                 <font>
+                                    <Font name="Calibri" size="14.0" />
+                                 </font>
+                              </TextField>
+                           </children>
+                        </VBox>
+                     </children>
+                  </AnchorPane>
+               </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>

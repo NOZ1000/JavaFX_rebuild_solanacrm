@@ -73,6 +73,18 @@ public class AppController {
             }
         });
         this.vboxNavigation.getChildren().add(profileButton);
+
+        Button myGroupButton = new Button();
+        myGroupButton.setText("My Group");
+        myGroupButton.setPrefSize(230,35);
+        myGroupButton.setOnAction(event -> {
+            try {
+                SwitchScene.switchToMyGroup(stage,scene,root,event);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+        });
+        this.vboxNavigation.getChildren().add(myGroupButton);
     }
 
 }
